@@ -26,3 +26,11 @@ wk.add({
   { "<leader>ls", "<cmd>Lspsaga signature_help<cr>", desc = "Signature Help" },
   { "<leader>lw", "<cmd>Lspsaga show_workspace_diagnostics<cr>", desc = "Show Workspace Diagnostics" },
 })
+
+wk.add({
+  { "<leader>g", group = "Git" },
+  { "<leader>go", "<cmd>OpenInGHFileLines<cr>", desc = "Open line on GitHub" },
+  { "<leader>gO", "<cmd>OpenInGHFile<cr>", desc = "Open file on GitHub" },
+  { "<leader>gR", "<cmd>OpenInGHRepo<cr>", desc = "Open Repo on GitHub" },
+  { "<leader>gA", "<cmd>OpenRepoActions<cr>", desc = "Open Repo's Actions page on GitHub" },
+})
